@@ -1,2 +1,2 @@
-# tad
-a method to calculate time after dose
+# tad 
+Calculate time since most recent dose for pharmacometric data.
