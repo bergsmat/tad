@@ -1,0 +1,10 @@
+Package: tad
+Type: Package
+Title: A Method to Calculate Time Since Most Recent Dose
+Version: 0.1
+Date: 2016-05-17
+Author: Tim Bergsma
+Maintainer: Tim Bergsma <bergsmat@gmail.com>
+Description: Calculates time after dose for NONMEM-like data.
+License: GPL-2
+LazyData: TRUE
