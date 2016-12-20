@@ -1,6 +1,6 @@
-#' Calculate time of most recent dose.
+#' Calculate Time of Most Recent Dose
 #'
-#' Calculate time of most recent dose.
+#' Calculates time of most recent dose.
 #' @param x a numeric vector of event times
 #' @param ref length x vector of reference dose times
 #' @param addl length x integer: number of additional doses
@@ -82,7 +82,7 @@ tad <- function(
   dose <- as.logical(dose)
   dose[is.na(dose)] <- FALSE
   valid <- ifelse(dose,pos,NA)
-  r <- ave(valid,index,cumsum(dose),FUN=function(i)i[1])
+  r <- stats::ave(valid,index,cumsum(dose),FUN=function(i)i[1])
   t <-  tod(
     x = x, 
     ref  =    x[r], 

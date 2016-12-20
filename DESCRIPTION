@@ -8,3 +8,4 @@ Maintainer: Tim Bergsma <bergsmat@gmail.com>
 Description: Calculates time after dose for NONMEM-like data.
 License: GPL-2
 LazyData: TRUE
+RoxygenNote: 5.0.1
